@@ -1,0 +1,28 @@
+{
+  "name": "imagegen-skills",
+  "version": "1.0.0",
+  "description": "Design image-generation skills: website comps, mobile app screens, brand kits, and an image-first website pipeline.",
+  "author": {
+    "name": "leonxlnx",
+    "url": "https://github.com/Leonxlnx"
+  },
+  "homepage": "https://github.com/Leonxlnx/imagegen-skills",
+  "repository": "https://github.com/Leonxlnx/imagegen-skills",
+  "license": "MIT",
+  "keywords": ["skills", "image-generation", "design", "frontend", "branding"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Imagegen Skills",
+    "shortDescription": "Website comps, mobile screens, brand kits and image-to-code.",
+    "longDescription": "Design image-generation skills from Leonxlnx/imagegen-skills, packaged as one Codex marketplace plugin.",
+    "developerName": "leonxlnx",
+    "category": "Design",
+    "capabilities": [],
+    "websiteURL": "https://github.com/Leonxlnx/imagegen-skills",
+    "defaultPrompt": [
+      "Generate website design comps for this landing page, one image per section.",
+      "Design the main screens of this mobile app as images.",
+      "Turn this brief into design images, then build the website to match."
+    ]
+  }
+}

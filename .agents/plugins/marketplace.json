@@ -1,0 +1,21 @@
+{
+  "name": "imagegen-skills",
+  "interface": {
+    "displayName": "Imagegen Skills"
+  },
+  "plugins": [
+    {
+      "name": "imagegen-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Leonxlnx/imagegen-skills.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
